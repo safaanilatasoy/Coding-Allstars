@@ -1,9 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat&family=Open+Sans:wght@300;400&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
 /* General CSS Codes */
 
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #333 !important;
 }
 
@@ -84,7 +88,13 @@ img {
 }
 
 .nav-links li {
-    margin-right: 20px; /* Boşluk ekledik */
+    margin-right: 20px; 
+}
+.nav-links li a:hover {
+    color: #d8d5d5;
+}
+.nav-links .connect:hover {
+    color: #1f2324;
 }
 
 .nav-links a {
@@ -286,17 +296,19 @@ color: #fff !important;
             .nav-links li {
              margin: 30px 0;
             text-align: center;
+                
             }
 
         .nav-links li a {
          text-decoration: none;
         color: #fff;
         font-size: 18px;
+        
         transition: color 0.3s ease;
           }
 
 .nav-links li :hover {
-    color: #B8B8B8; /* Vurgu rengi */
+    color: #B8B8B8; 
 }
 .nav-links {
     display: none;
@@ -310,18 +322,24 @@ color: #fff !important;
     right: 10px;
     top: 0px;
     position: absolute;
+    
 }
+
 
 
         }
 
 
 
-
-
-
-
-
 .menu-open .nav-links {
     display: block;
+}
+
+.about-pic{
+    border-radius: 11px !important;
+}
+
+.connect-us{
+background-color: #15171a; 
+border-radius:11px;
 }
