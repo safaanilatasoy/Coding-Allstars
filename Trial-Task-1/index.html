@@ -2,129 +2,352 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta
-        name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Main CSS File -->
-        <link
-        rel="stylesheet" href="assets/css/style.css">
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+            <meta
+                name="viewport" content="width=device-width, initial-scale=1.0">
+                <!-- Main CSS File -->
+                <link
+                    rel="stylesheet" href="assets/css/style.css">
+                    <!-- Bootstrap CSS -->
+                    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+                <!-- font awesome -->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                        <title>Trial Task #1</title>
 
-        <title>Trial Task #1</title>
+                    </head>
+                    <body>
+                        <div class="wrapper">
+                            <header class="header">
+                                <nav class="navbar mt-4 topnav">
+                                   
+                                    <div class="logo">
+                                        <a href="index.html"><img src="assets/img/logo.svg" class="logo" alt="logo"></a></div>
+                                        <div class="menuToggle">
+                                        <ul class="nav-links menuItem">
+                                            <li>
+                                                <a href="index.html">Home</a>
+                                            </li>
+                                            <li>
+                                                <a href="#skills">Skills</a>
+                                            </li>
+                                            <li>
+                                                <a href="#projects">Projects</a>
+                                            </li>
+                                            <li>
+                                                <a href="#aboutUs">About Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="#contact" class="connect">Contact</a>
+                                            </li>
+                                        </ul>
+<button class="menu-toggle">
+    <i class="fa fa-bars"></i>
+</button>
 
-    </head>
-    <body>
-        <div class="wrapper">
-            <header class="header">
-                <nav class="navbar">
-                    <div class="logo">
-                        <img src="assets/img/logo.svg" class="logo" alt="logo">
-                    </div>
-                    <ul class="nav-links">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#skills">Skills</a>
-                        </li>
-                        <li>
-                            <a href="#aboutUs">Projects</a>
-                        </li>
-                        <li>
-                            <a href="#aboutUs">About Us</a>
-                        </li>
-                        <li>
-                            <a href="#contact" class="connect">Contact</a>
-                        </li>
-                    </ul>
-
-                </nav>
-                <section class="banner">
-
-                    <div class="col-md-6 col-xs-12 col-xl-7 banner-text">
-                        <span class=" tagline">
-                            Hello, World!</span>
-
-                        <h1>Lorem ipsum dolor sit</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
-                                                                                                            elit. Morbi quis tristique leo, ac tincidunt nunc.</p>
+</div>
 
 
-                        <button>Let's Start
+                                    </nav>
+                                    <section class="banner">
 
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/>
-                            </svg>
+                                        <div class="col-md-6 col-xs-12 col-xl-7 banner-text">
+                                            <span class=" tagline">
+                                                Hello, World!</span>
 
-                        </button>
-                    </div>
-                    <div class="col-md-6 col-xs-12 col-xl-3">
-                        <img src="assets/img/header-img.svg" alt="banner-image"/>
-                    </div>
-                </section>
-            </header>
-            <main class="main">
-
-                <section class="container text-center mt-4">
-                    <div class="row">
-
-                        <div class="col-sm-3 mb-4 mb-sm-0">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="assets/img/tag.png"/>
-                                    <h5 class="card-title">HTML/CSS</h5>
-                                    <p class="card-text">HTML structures web content, CSS styles it. They work together for attractive and organized web pages.</p>
+                                            <h1>Lorem ipsum dolor sit</h1>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                                                                                                                                                        elit. Morbi quis tristique leo, ac tincidunt nunc.</p>
 
 
-                                    <a href="#" class="btn btn-primary">More</a>
+                                            <button>Let's Start
+
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/>
+                                                </svg>
+
+                                            </button>
+                                        </div>
+                                        <div class="col-md-6 col-xs-12 col-xl-3">
+                                            <img src="assets/img/header-img.svg" alt="banner-image"/>
+                                        </div>
+                                    </section>
+                                </header>
+                                <main
+                                    class="main">
+
+                                    <!-- Skills Component Start -->
+                                    <section id="skills" class="container text-center mt-4">
+                                        <div class="row">
+
+                                            <div class="col-sm-3 mb-4 mb-sm-0">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img src="assets/img/tag.png"/>
+                                                        <h5 class="card-title">HTML/CSS</h5>
+                                                        <p class="card-text">HTML structures web content, CSS styles it. They work together for attractive and organized web pages.</p>
+
+
+                                                        <a href="#" class="btn btn-primary">More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3 mb-4 mb-sm-0">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img src="assets/img/java-script.png"/>
+                                                        <h5 class="card-title">JavaScript</h5>
+                                                        <p class="card-text">JavaScript brings interactivity to web pages, enabling dynamics, responsive design, and enhancing user experience.</p>
+
+
+                                                        <a href="#" class="btn btn-primary">More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3 mb-4 mb-sm-0">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img src="assets/img/php.png"/>
+                                                        <h5 class="card-title">PHP</h5>
+                                                        <p class="card-text">PHP empowers web backends, handling server-side logic and database interactions efficiently.</p>
+
+                                                        <a href="#" class="btn btn-primary">More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3 mb-4 mb-sm-0">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img src="assets/img/atom.png"/>
+                                                        <h5 class="card-title">React.js</h5>
+                                                        <p class="card-text">React.js revolutionizes front-end, building dynamic interfaces and managing state seamlessly.</p>
+
+                                                        <a href="#" class="btn btn-primary">More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </section>
+                                    
+                                        <div class="container text-white" id="projects"> <hr class="solid my-5">
+
+                                            <div class="row align-items-center pt-4 appear-animation" data-appear-animation="fadeInLeftShorter">
+                                                <div class="col-md-6 mb-4 mb-md-0">
+                                                    <img class="img-fluid scale-2 pe-5 pe-md-0 my-4" src="assets/img/projects/medium-clone.png" alt="about"></div>
+                                                    <div class="col-md-5 ps-md-5">
+                                                        <h2 class="font-weight-normal text-6 mb-3">
+                                                            <strong class="font-weight-extra-bold">Lorem Ipsum</strong>
+                                                        </h2>
+                                                        <p class="text-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed leo nulla. Pellentesque ac enim sit amet arcu dignissim bibendum. Integer tincidunt nisi eu felis ultrices.</p>
+
+                                                        <p>Nunc euismod quam eget enim tristique, a iaculis nisi facilisis. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ac massa nec arcu fringilla dictum at vel libero.</p>
+
+
+                                                    </div>
+                                                </div>
+
+                                                <hr class="solid my-5">
+
+                                                    <div class="row align-items-center py-5 appear-animation" data-appear-animation="fadeInRightShorter">
+                                                        <div class="col-md-5 pe-md-5 mb-5 mb-md-0">
+                                                            <h2 class="font-weight-normal text-6 mb-3">
+                                                                <strong class="font-weight-extra-bold">Donec convallis</strong>
+                                                            </h2>
+                                                            <p class="text-4">Quisque varius elit eget tellus bibendum, nec tincidunt est interdum.</p>
+                                                            <p>Maecenas bibendum, neque a auctor malesuada, est odio feugiat mi, non placerat justo mi eu lorem. Sed nec gravida nunc. Nullam in tincidunt nisl. Cras vel malesuada libero. Suspendisse consectetur sem non elit vulputate, ut bibendum dolor fermentum.</p>
+                                                            <p>Quisque rhoncus lacinia enim, in consequat ex luctus id. Nam sed odio non arcu cursus volutpat.</p>
+
+                                                        </div>
+                                                        <div class="col-md-6 px-5 px-md-3">
+                                                            <img class="img-fluid scale-2 my-4" src="assets/img/projects/linkedin-clone.png" alt="style switcher"></div>
+                                                        </div>
+
+                                                        <hr class="solid my-5"></div>
+
+
+                                                        <!-- Projects Component End -->
+                                                    </main>
+                                                    <!-- CONTACT START -->
+<div role="main" class="main" id="contact">
+
+    
+
+    <div class="container text-white">
+
+        <div class="row py-4">
+            <div class="col-lg-7 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="650">
+
+                <div class="offset-anchor" id="contact-sent"></div>
+
+
+                <h2 class="font-weight-bold text-7 mt-2 mb-0">Contact Us</h2>
+                <p class="mb-4">Feel free to ask for details</p>
+
+                <form>
+                    <input type="hidden" value="true" name="emailSent" id="emailSent">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label class="form-label mb-1 text-2">Full Name</label>
+                                <input type="text" value="" maxlength="100" class="form-control text-3 h-auto py-2" name="name" id="name" required=""></div>
+                                <div class="form-group col-md-6">
+                                    <label class="form-label mb-1 text-2">E-mail</label>
+                                    <input type="email" value="" maxlength="100" class="form-control text-3 h-auto py-2" name="email" id="email" required=""></div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3 mb-4 mb-sm-0">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="assets/img/java-script.png"/>
-                                    <h5 class="card-title">JavaScript</h5>
-                                    <p class="card-text">JavaScript brings interactivity to web pages, enabling dynamics, responsive design, and enhancing user experience.</p>
+                                <div class="row">
+                                    <div class="form-group col-md-12">
+                                        <label class="form-label mb-1 text-2">Phone Number</label>
+                                        <input type="tel" value="" data-msg-required="Lütfen telefon numaranızı giriniz" maxlength="10" class="form-control text-3 h-auto py-2" name="telno" id="telno" required=""></div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group col-md-12">
+                                            <label class="form-label mb-1 text-2">File (Optional)</label>
+                                            <input class="form-control d-block" type="file" name="attachment" id="attachment"></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-md-12 mb-4">
+                                                <label class="form-label mb-1 text-2">Message</label>
+                                                <textarea maxlength="5000" rows="6" class="form-control text-3 h-auto py-2" name="message" id="message" required=""></textarea>
+                                            </div>
+                                        </div>
+                                        
+                                        </form>
 
 
-                                    <a href="#" class="btn btn-primary">More</a>
+                                    </div>
+                                    <div class="col-lg-5 mt-4">
+
+                                        <div class="overflow-hidden mb-1 mt-4">
+                                            <h4 class="text-primary mb-0 appear-animation mt-4" data-appear-animation="maskUp" data-appear-animation-delay="200">
+                                                <strong class="mt-4 mt-4">Stay</strong>
+                                                Connect</h4>
+                                        </div>
+                                        <div class="overflow-hidden mb-3">
+                                            <p class="lead text-4 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="400">Lorem ipsum dolor sit amet</p>
+                                        </div>
+                                        <div class="overflow-hidden">
+                                            <p class="mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatem obcaecati nemo, tempora, asperiores rerum inventore illum ad ullam iusto praesentium.</p>
+                                        </div>
+
+                                        <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800">
+                                            <h4 class="text-primary pt-5">Office</h4>
+                                            <ul class="list list-icons list-icons-style-3 mt-2">
+                                                <li>
+                                                    <i class="fas fa-map-marker-alt top-6"></i>
+                                                    <strong>Adress:</strong>
+                                                    4617 Meadowcrest Lane Lexington/Kentucky</li>
+                                                <li>
+                                                    <i class="fas fa-phone top-6"></i>
+                                                    <strong>Phone:</strong>
+                                                    606-xxx-8252</li>
+                                                <li>
+                                                    <i class="fas fa-envelope top-6"></i>
+                                                    <strong>Email:</strong>
+                                                    <span class="__cf_email__">
+                                                        contact@demo.com</span>
+                                                </li>
+                                            </ul>
+
+
+                                            <h4 class="text-primary pt-5">Office
+                                                <strong>Hours</strong>
+                                            </h4>
+                                            <ul class="list list-icons list-dark mt-2">
+                                                <li>
+                                                    <i class="far fa-clock top-6"></i>
+                                                    Mon - Fri 09.00 AM - 5.00 PM</li>
+                                                <li>
+                                                    <i class="far fa-clock top-6"></i>
+                                                    Sat 09.00 AM - 5.00 PM</li>
+                                                <li>
+                                                    <i class="far fa-clock top-6"></i>
+                                                    Sun: Close</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3 mb-4 mb-sm-0">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="assets/img/php.png"/>
-                                    <h5 class="card-title">PHP</h5>
-                                    <p class="card-text">PHP empowers web backends, handling server-side logic and database interactions efficiently.</p>
 
-                                    <a href="#" class="btn btn-primary">More</a>
-                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-3 mb-4 mb-sm-0">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="assets/img/atom.png"/>
-                                    <h5 class="card-title">React.js</h5>
-<p class="card-text">React.js revolutionizes front-end, building dynamic interfaces and managing state seamlessly.</p>
 
-                                    <a href="#" class="btn btn-primary">More</a>
-                                </div>
+                            <!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
+                            <div id="googlemaps" class="google-map m-0" style="height: 650px;">
+                            <iframe style="width:100%; height: 100%; "src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.551991466365!2d-84.52613438800391!3d37.96424550110525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88425c763a292c41%3A0x1c9df24127145b9b!2s4617%20Meadowcrest%20Ct%2C%20Lexington%2C%20KY%2040515%2C%20Amerika%20Birle%C5%9Fik%20Devletleri!5e0!3m2!1str!2str!4v1693053390379!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
                             </div>
+
                         </div>
 
-                    </div>
-                </section>
-            </main>
-            <footer class="footer">Footer</footer>
-        </div>
+
+                                                    <!-- FOOTER START -->
+                                                    <footer class="footer">
+                                                        <div class="container">
+
+                                                            <div class="row py-5 my-4">
+                                                                <div class="col-md-6 col-lg-6 mb-4 mb-lg-0">
+                                                                    <h5 class="text-3 mb-3">News</h5>
+                                                                    <p class="pe-1">Always keep up with our evolving product features and technology. Enter your e-mail address and subscribe to our newsletter.</p>
 
 
-        <!-- Main JS File -->
-        <script src="assets/js/main.js"></script>
-        <!-- Bootstrap JS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    </body>
-</html>
+                                                                    <div class="alert alert-danger d-none" id="newsletterError"></div>
+                                                                    <form class="me-4 mb-3 mb-md-0">
+                                                                        <div class="input-group input-group-rounded">
+                                                                            <input class="form-control form-control-sm bg-light" placeholder="Email" name="newsletterEmail" id="newsletterEmail" type="email">
+                                                                                <button class="btn btn-light text-color-dark" type="submit">
+                                                                                    <strong>Submit</strong>
+                                                                                </button>
+                                                                            </div>
+                                                                        </form>
+                                                                    </div>
+
+                                                                    <div class="col-md-6 col-lg-6 mb-4 mb-md-0">
+                                                                        <div class="contact-details">
+                                                                            <h5 class="text-3 mb-3">Contact Us</h5>
+                                                                            <ul class="list list-icons list-icons-lg">
+                                                                                <li class="mb-1">
+                                                                                    <i class="far fa-dot-circle text-color-primary"></i>
+                                                                                    <p class="m-0">
+                                                                                        4617 Meadowcrest Lane Lexington/Kentucky</p>
+                                                                                </li>
+                                                                                <li class="mb-1">
+                                                                                    <i class="fab fa-whatsapp text-color-primary"></i>
+                                                                                    <p class="m-0">
+                                                                                        <a href="tel:+90 533 033 8310">606-xxx-8xx2</a>
+                                                                                    </p>
+                                                                                </li>
+                                                                                <li class="mb-1">
+                                                                                    <i class="far fa-envelope text-color-primary"></i>
+                                                                                    <p class="m-0">
+                                                                                        <a href="#">
+                                                                                            <span class="__cf_email__">suppport@demo.com</span>
+                                                                                        </a>
+                                                                                    </p>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="footer-copyright">
+                                                                <div class="container py-2">
+                                                                    <div class="row py-4">
+                                                                        <div class="col-lg-12 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
+                                                                            <div class="col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
+                                                                                <p>Demo. Copright Lorem ipsum.</p>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                            </footer>
+                                                        </div>
+
+
+                                                        <!-- Main JS File -->
+                                                        <script src="assets/js/main.js"></script>
+                                                        <!-- Bootstrap JS -->
+                                                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+                                                    </body>
+                                                </html>
